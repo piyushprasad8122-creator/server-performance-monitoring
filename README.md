@@ -1,52 +1,82 @@
-Server Performance Monitoring Script
-Overview
+# Server Performance Monitoring Script
 
-This project is a lightweight Bash script designed to monitor and analyze basic Linux server performance metrics.
-It provides a quick snapshot of system health directly from the terminal without requiring any external monitoring tools.
 
-The script is suitable for cloud servers (such as AWS EC2) and on-prem Linux machines.
+## Project URL
 
-Objective
 
-The objective of this project is to understand and demonstrate Linux system monitoring fundamentals by collecting real-time performance data using standard Linux utilities.
+https://github.com/piyushprasad8122-creator/server-performance-monitoring
 
-Features
 
-Displays total CPU usage
+---
 
-Shows memory usage (used and free with percentages)
 
-Reports disk usage of the root filesystem
+## Overview
 
-Lists top 5 processes by CPU usage
 
-Lists top 5 processes by memory usage
+This project is a lightweight Bash script designed to analyze and display basic Linux server performance statistics.  
+It provides a real-time snapshot of system health directly in the terminal using standard Linux utilities, without relying on external monitoring tools.
 
-Displays operating system version
 
-Shows system uptime and load average
+The script is suitable for cloud servers (such as AWS EC2) as well as on-premises Linux systems.
 
-Displays number of logged-in users
 
-Reports failed login attempts from system logs
+---
 
-Requirements
 
-Linux operating system
+## Objective
 
-Bash shell
 
-Standard Linux commands (top, free, df, ps, uptime, who)
+The objective of this project is to understand and demonstrate Linux system monitoring fundamentals by collecting key performance metrics such as CPU usage, memory consumption, disk utilization, and active processes.
+
+
+---
+
+
+## Features
+
+
+- Displays total CPU usage
+- Shows memory usage (used and free with percentages)
+- Reports disk usage of the root filesystem
+- Lists top 5 processes by CPU usage
+- Lists top 5 processes by memory usage
+- Displays operating system version
+- Shows system uptime
+- Displays system load average
+- Shows number of logged-in users
+- Reports failed login attempts from authentication logs
+
+
+---
+
+
+## Requirements
+
+
+- Linux operating system
+- Bash shell
+- Standard Linux utilities:
+  - `top`
+  - `free`
+  - `df`
+  - `ps`
+  - `uptime`
+  - `who`
+
 
 No additional packages or third-party tools are required.
 
-Script Usage
 
-Clone the repository or download the script.
+---
 
-Make the script executable:
 
-chmod +x server-stats.sh
+## Script Usage
+
+
+1. Download or clone the repository.
+2. Make the script executable:
+   ```bash
+   chmod +x server-stats.sh
 
 Run the script:
 
@@ -55,6 +85,9 @@ Run the script:
 The output will be displayed directly in the terminal.
 
 Sample Output
+SERVER PERFORMANCE STATS
+
+
 CPU Usage:
 Total CPU Usage: 23.1%
 
@@ -77,9 +110,9 @@ Use Cases
 
 Quick health checks for Linux servers
 
-Learning Linux system administration
+Learning Linux system administration fundamentals
 
-Entry-level DevOps practice project
+Entry-level DevOps and Bash scripting practice
 
 Monitoring small cloud instances
 
@@ -87,21 +120,21 @@ Limitations
 
 Provides a real-time snapshot only (no historical data)
 
-Does not include alerting or notifications
+No alerting or notification system
 
-Disk usage is limited to the root filesystem
+Disk monitoring is limited to the root filesystem
 
 Future Improvements
 
-Add threshold-based alerts
+Add threshold-based alerts for CPU, memory, and disk usage
 
 Export output to log files
 
-Schedule execution using cron
+Schedule execution using cron jobs
 
-Extend disk monitoring to all mounted filesystems
+Monitor all mounted filesystems
 
-Integrate with monitoring tools
+Integrate with monitoring platforms
 
 License
 
