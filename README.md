@@ -144,4 +144,4 @@ Author
 
 Piyush
 Linux | Bash | DevOps Fundamentals
-![image alt] https://github.com/piyushprasad8122-creator/server-performance-monitoring/blob/67384946aa581b9b6acf866e5e13a7acbc1b7dcf/server-stats-output.png
+
