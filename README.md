@@ -1,10 +1,10 @@
 # Server Performance Monitoring Script
 
 
-## Project URL
+## Project Page URL
 
 
-https://github.com/piyushprasad8122-creator/server-performance-monitoring
+https://roadmap.sh/projects/server-stats
 
 
 ---
